@@ -34,7 +34,7 @@ namespace ParentalControl
             //Console.ReadLine();
 
             DateTime date1 = DateTime.Now;
-            DateTime date2 = new DateTime(2022, 07, 04, 13, 0, 0);
+            DateTime date2 = new DateTime(2022, 07, 17, 13, 0, 0);
             int result = DateTime.Compare(date1, date2);
 
             if (date1.Hour < 13)
