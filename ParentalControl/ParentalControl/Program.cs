@@ -50,9 +50,7 @@ namespace ParentalControl
                 Environment.Exit(0);
             }
 
-            //Application.Run(new Form1("MyForm", 200, 300));
-            // Запускается приложение Windows Forms
-            // с выводом главной формы
+            
             Console.Read();
 
         }
