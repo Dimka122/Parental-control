@@ -1,17 +1,17 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
-
-using System.Threading;
 using System.Threading.Tasks;
-using System.Diagnostics;
 
-namespace ParentalControl 
+
+namespace ParentalControl
 {
     class Program
     {
-        static void Main(string[] args)
+        
+        static void Main()
         {
             //Task.Factory.StartNew(() =>
             //{
@@ -49,6 +49,11 @@ namespace ParentalControl
             {
                 Environment.Exit(0);
             }
+
+            //Application.Run(new Form1("MyForm", 200, 300));
+            // Запускается приложение Windows Forms
+            // с выводом главной формы
+            Console.Read();
 
         }
     }
